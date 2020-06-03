@@ -196,6 +196,7 @@ namespace ConsoleApplication3
                 base.Calculate();
         }
     }
+    
     public abstract class Account : IAC
     {
         protected internal event StateAccHand Withdrawed;
